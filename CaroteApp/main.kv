@@ -1,0 +1,43 @@
+#: import main main
+#: import ListItemButton kivy.uix.listview.ListItemButton
+#: import ListAdapter kivy.adapters.listadapter.ListAdapter
+
+<ClassBotaoLocalidade>:
+    height: "40dp"
+    size_hint_y: None
+    text: "{} ({})".format(self.loc_botao[0],self.loc_botao[1])
+    on_press: app.root.layout_rota.escolheu_loc(self.loc_botao[2])
+<ClassBotaoRota>:
+    height: "40dp"
+    size_hint_y: None
+    text: "{} ({})".format(self.loc_botao[0],self.loc_botao[1])
+    on_press: app.root.layout_rota.escolheu_loc_rota(self.loc_botao[3])
+<ClassBotaoBarco>:
+    height: "40dp"
+    size_hint_y: None
+    on_press: app.root.layout_barco.escolheu_barco(self.text)
+<ClassBotaoMotor>:
+    height: "40dp"
+    size_hint_y: None
+    on_press: app.root.layout_barco.escolheu_motor(self.text)
+
+<TelaBase>:
+    layout_rota:_layout_rota
+    layout_barco:_layout_barco
+
+    do_default_tab: False
+    
+    LayoutRota:
+        id:_layout_rota
+    LayoutBarco:
+        id:_layout_barco
+    LayoutResultados:
+        id:_layout_resultados
+
+    TabbedPanelItem:
+        text: 'Opções'
+    
+    TabbedPanelItem:
+        text: 'Info'
+
+

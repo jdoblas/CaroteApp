@@ -1,0 +1,25 @@
+<LayoutResultados>:
+    text:'Resultados'
+    label_resultados: _label_resultados
+    BoxLayout:
+        orientation:'vertical'
+        Label:
+            id:_label_resultados
+            text:'Resultado nao disponivel'
+        BoxLayout:
+            size_hint_y:None
+            height:'70dp'
+            padding:0,10
+            Label:
+                size_hint_x:.3
+            Button:
+                size_hint_x:.4
+                text:'Atualizar'
+                on_press:root.CalculaResultados()
+            Label:
+                size_hint_x:.3
+
+        BoxLayout:
+            size_hint_y:None
+            height:'30dp'
+            Label:

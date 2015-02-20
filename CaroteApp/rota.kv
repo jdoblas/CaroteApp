@@ -1,0 +1,61 @@
+<LayoutRota>:
+    text:'Rota'
+    input_loc1:_input_loc1
+##    label_loc1:_label_loc1
+    resultados_busca:_resultados_busca
+    lista_rota:_lista_rota
+##    label_resultados:_label_resultados
+    BoxLayout:
+        orientation:'vertical'
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint_y:None
+            height:'30dp'
+            Label:
+                text:''
+                size_hint_x: 0.8
+            TextInput:
+                id: _input_loc1
+                text:''
+                hint_text:'Filtro'
+                focus:False                        
+                size_hint_x: 0.2
+                on_text: root.procura_loc()
+        BoxLayout:
+            size_hint_y:None
+            height:'30dp'
+            Label:
+                text: 'Localidades disponíveis'
+        BoxLayout:
+            padding: 10,10
+            size_hint_y:.3
+            Label:
+                size_hint_x:.1
+            ListView:
+                selection_mode: 'single'
+                id:_resultados_busca
+                adapter:
+                    ListAdapter(
+                    data=range(len(main.localidades)),
+                    cls=main.ClassBotaoLocalidade,
+                    args_converter=root.converter_adapter_lista_loc)
+            Label:
+                size_hint_x:.1
+        BoxLayout:
+            size_hint_y:None
+            height:'30dp'
+            Label:
+                text: 'Rota Construída (clique para tirar uma localidade)'
+        BoxLayout:
+            size_hint_y:.3
+            padding: 10,10
+            Label:
+                size_hint_x:.1
+            ListView:
+                id:_lista_rota
+                adapter:
+                    ListAdapter(data=[],
+                    cls=main.ClassBotaoRota,
+                    args_converter=root.converter_adapter_lista_loc)
+            Label:
+                size_hint_x:.1              

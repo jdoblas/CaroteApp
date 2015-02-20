@@ -1,0 +1,108 @@
+<LayoutBarco>:
+    text:'Barco'
+    escolha_barco: _escolha_barco
+    escolha_motor: _escolha_motor
+    label_barco_motor:_label_barco_motor
+    escolha_peso:_escolha_peso
+    BoxLayout:
+        orientation:'vertical'
+        BoxLayout:
+            size_hint_y:None
+            height:'30dp'
+            Label:
+                text: 'Embarcaçoes disponíveis'
+        BoxLayout:
+            padding: 10,10
+            size_hint_y:.1
+            Label:
+                size_hint_x:.1
+            ListView:
+                selection_mode: 'single'
+                id:_escolha_barco
+                adapter:
+                    ListAdapter(
+                    data=main.tipo_barcos,
+                    cls=main.ClassBotaoBarco)
+            Label:
+                size_hint_x:.1
+        BoxLayout:
+            size_hint_y:None
+            height:'30dp'
+            Label:
+                text: 'Motores disponíveis'
+        BoxLayout:
+            padding: 10,10
+            size_hint_y:.1
+            Label:
+                size_hint_x:.1
+            ListView:
+                selection_mode: 'single'
+                id:_escolha_motor
+                adapter:
+                    ListAdapter(
+                    data=main.tipo_motores,
+                    cls=main.ClassBotaoMotor)
+            Label:
+                size_hint_x:.1
+        BoxLayout:
+            size_hint_y:None
+            height:'30dp'
+            Label:
+                size_hint_x:.2
+            Button:
+                id:_label_barco_motor
+                text: ''
+            Label:
+                size_hint_x:.2
+        BoxLayout:
+            size_hint_y:None
+            height:'40dp'
+            Label:
+                text: 'Peso do barco'
+        BoxLayout:
+            size_hint_y:None
+            height:'30dp'
+            Label:
+                size_hint_x:.2
+                text:'Leve'
+            Label:
+                text:''
+                size_hint_x:0.6
+            Label:
+                size_hint_x:.2
+                text:'Pesado'
+
+        BoxLayout:
+            size_hint_y:None
+            height:'30dp'
+            padding:0,10
+            Label:
+                size_hint_x:.1
+            Slider:
+                id:_escolha_peso
+                min:1
+                max:1.11
+                value:1
+                orientation: 'horizontal'
+                on_touch_move:root.mudou_peso(self.value)
+            Label:
+                size_hint_x:.1
+        BoxLayout:
+            size_hint_y:None
+            height:'30dp'
+            Label:
+
+
+##        BoxLayout:
+##            size_hint_y:.3
+##            padding: 10,10
+##            Label:
+##                size_hint_x:.1
+##            ListView:
+##                id:_lista_rota
+##                adapter:
+##                    ListAdapter(data=[],
+##                    cls=main.ClassBotaoRota,
+##                    args_converter=root.converter_adapter_lista_loc)
+##            Label:
+##                size_hint_x:.1              
