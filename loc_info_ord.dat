@@ -6,11 +6,11 @@ Ascrôa;RESEX Riozinho;508.9;0.0;0.0
 Baliza;RESEX Xingu;168.0;0.0;0.0
 Bela Vista;RESEX Xingu;295.7;0.0;0.0
 Boa Esperança;RESEX Iriri;284.0;0.0;0.0
-Boa SaÚDe Ii;RESEX Riozinho;514.8;0.0;0.0
+Boa Saúde II;RESEX Riozinho;514.8;0.0;0.0
 Boa Saúde I;RESEX Riozinho;514.1;0.0;0.0
 Boa Vista;RESEX Riozinho;455.8;0.0;0.0
 Boca Riozinho;Referencia;436.9;0.0;0.0
-Bom Jardim (Rioz);RESEX Riozinho;472.4;0.0;0.0
+Bom Jardim (Riozinho);RESEX Riozinho;472.4;0.0;0.0
 Bom Jardim (Xingu);RESEX Xingu;330.3;0.0;0.0
 Branca De Neve;RESEX Riozinho;487.9;0.0;0.0
 Buenos Aires;RESEX Riozinho;571.8;0.0;0.0
@@ -25,8 +25,8 @@ Furo Do Fava;RESEX Iriri;420.6;0.0;0.0
 Gabiroto;RESEX Xingu;254.2;0.0;0.0
 Humaitá;RESEX Xingu;272.3;0.0;0.0
 Ilha Das Cobras;RESEX Iriri;303.5;0.0;0.0
-Ilha Do Coco;RESEX Iriri;356.4;0.0;0.0
-Ilha Do Côco;RESEX Xingu;234.3;0.0;0.0
+Ilha Do Côco (Iriri);RESEX Iriri;356.4;0.0;0.0
+Ilha Do Côco (Xingu);RESEX Xingu;234.3;0.0;0.0
 Ilha Do Papagaio;RESEX Iriri;356.4;0.0;0.0
 Iriri;Aldeia;372.1;0.0;0.0
 Jesus E Bem Vindo;RESEX Iriri;429.8;0.0;0.0
@@ -34,12 +34,12 @@ Kararaô;Aldeia;124.5;0.0;0.0
 Koatinemo;Aldeia;123.9;0.0;0.0
 Lajeado;RESEX Riozinho;550.7;0.0;0.0
 Lajeiro (Iriri);RESEX Iriri;444.7;0.0;0.0
-Lajeiro (Rioz);RESEX Riozinho;528.7;0.0;0.0
+Lajeiro (Riozinho);RESEX Riozinho;528.7;0.0;0.0
 Largo Bonito;RESEX Riozinho;527.2;0.0;0.0
 Maribel;TICS;266.0;0.0;0.0
 Monte Alegre;RESEX Xingu;204.7;0.0;0.0
 Morada Nova;RESEX Riozinho;448.5;0.0;0.0
-Morro Do AnfríSio;RESEX Riozinho;480.1;0.0;0.0
+Morro Do Anfrísio;RESEX Riozinho;480.1;0.0;0.0
 Morro Do Costinha;RESEX Xingu;266.9;0.0;0.0
 Morro Do FéLix;RESEX Xingu;294.3;0.0;0.0
 Morro Do Gabriel;RESEX Iriri;413.0;0.0;0.0
@@ -47,17 +47,16 @@ Morro Do Riozinho;RESEX Riozinho;480.1;0.0;0.0
 Morro Grande;RESEX Xingu;238.4;0.0;0.0
 Morro Verde;RESEX Riozinho;444.7;0.0;0.0
 Novo Paraiso;RESEX Iriri;304.1;0.0;0.0
-Novo ParaíSo;RESEX Riozinho;488.2;0.0;0.0
+Novo Paraíso;RESEX Riozinho;488.2;0.0;0.0
 Pakisamba;Aldeia;81.8;0.0;0.0
 Paulo Afonso;RESEX Riozinho;551.1;0.0;0.0
 Pedra Preta;RESEX Xingu;185.9;0.0;0.0
 Piranheira;RESEX Riozinho;562.4;0.0;0.0
 Pontao Do Pati;RESEX Iriri;428.2;0.0;0.0
 Postinho;RESEX Riozinho;560.2;0.0;0.0
-Praia Do Frisan;RESEX Riozinho;439.4;0.0;0.0
 Praia Do Frizan;RESEX Riozinho;439.4;0.0;0.0
 Praia Grande;RESEX Riozinho;463.2;0.0;0.0
-Ressaca Da CalifÓRnia;RESEX Iriri;428.9;0.0;0.0
+Ressaca Da Califórnia;RESEX Iriri;428.9;0.0;0.0
 Ressaca;RESEX Riozinho;463.8;0.0;0.0
 Rio Novo;RESEX Iriri;277.2;0.0;0.0
 Riso Da Noite;RESEX Riozinho;458.8;0.0;0.0
